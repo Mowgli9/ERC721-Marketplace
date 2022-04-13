@@ -332,7 +332,7 @@ contract Marketplace is ReentrancyGuard {
         uint256 endTime = IdToAuction[_auctionId].endAt;
         bool isStarted = IdToAuction[_auctionId].start;
         bool isEnded = IdToAuction[_auctionId].end;
-        require(block.timestamp >=  endTime + 1 days, "not yet");
+        require(block.timestamp >=  timestamp + endTime, "not yet");
         require(isStarted == true, "not started");
         require(isEnded == false, "ended");
         address payable highestBidder = IdToAuction[_auctionId].highestBidder;
