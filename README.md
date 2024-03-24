@@ -1,3 +1,7 @@
+🙃🙃🙃🙃 Disclamer : I don't suggest you to use this smart contract, It was only for me to learn more about Solidity ` Who the f* wrote this smart contract 😆😆😆😆 `
+
+
+
 # `About this Project` : 
 
     I created this project to improve my Solidity skills, this is a marketplace to buy and sale NFTs and make English auction too.
